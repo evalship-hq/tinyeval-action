@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
       # Set up your app's language here, as for its tests.
-      - uses: evalship-hq/tinyeval-action@v0.12.0
+      - uses: evalship-hq/tinyeval-action@v0.12.1
         with:
           args: -n 3
         env:
@@ -71,3 +71,4 @@ updates:
 - [Writing evals](https://github.com/evalship-hq/tinyeval#writing-evals): every check line, the judge and the options
 - [Template repos](https://github.com/evalship-hq/tinyeval#quickstart): a support bot with its evals in CI, in your app's language
 - This action is built from `packages/action` in [evalship-hq/tinyeval](https://github.com/evalship-hq/tinyeval). Send issues and pull requests there.
+- Made by [evalship](https://evalship.com).
